@@ -21,14 +21,14 @@ This outputs `Penguins like to jump off icebergs!` five times in your Terminal.
 
 ### Basic `times` Example: Dinner Party
 
-Let's take a look at some more complex examples: 
+Let's take a look at some more complex examples:
 
-You just had a wildly successful dinner party with seven of your very best friends. Then they went home and left you with *all* of the dishes. They will *not* be invited back. 
+You just had a wildly successful dinner party with seven of your very best friends. Then they went home and left you with *all* of the dishes. They will *not* be invited back.
 
 Let's clean those dishes using the `times` method:
 
 ```ruby
-7.times do 
+7.times do
   puts "I am doing the dishes left by my former friends."
 end
 
@@ -45,14 +45,14 @@ end
 
 ### Intermediate `times` Example: Crime Spree
 
-Okay, that's fine, but all we did was print some text––what if we wanted to change the value of a variable within a loop? Let's see how that works: 
+Okay, that's fine, but all we did was print some text––what if we wanted to change the value of a variable within a loop? Let's see how that works:
 
 You are a jewel thief who has stolen one hundred (100) very valuable jewels (you are a really good jewel thief). But now you need to unload your stolen jewels from your bag into the safe in your secret hideout!  
 
 ```ruby
 jewels_in_bag = 100
 
-3.times do 
+3.times do
   puts "Hiding 10 stolen jewels."
   jewels_in_bag = jewels_in_bag - 10
 end
@@ -74,12 +74,12 @@ puts "We have #{jewels_in_bag} jewels still to hide!"
 
 #### Advanced `times` Example
 
-This is fun and all, but so far we've only printed text within the block of code within the loop. What if we wanted to do something more, say, keep track of the number of jewels we are hiding *as we hide them*? 
+This is fun and all, but so far we've only printed text within the block of code within the loop. What if we wanted to do something more, say, keep track of the number of jewels we are hiding *as we hide them*?
 
 ```ruby
 jewels_in_bag = 100
 
-3.times do 
+3.times do
   puts "Hiding 10 stolen jewels."
   jewels_in_bag = jewels_in_bag - 10
   puts "Now there are only #{jewels_in_bag} jewels left to hide!"
@@ -107,8 +107,8 @@ We're still struggling to master that levitation charm. Since we need to keep pr
 ## Instructions
 
 1. Fork and clone this lab.
-2. Run the test suite with the `learn` command. 
-3. You'll be coding your solution in `times.rb`: 
+2. Run the test suite with the `learn` command.
+3. You'll be coding your solution in `times.rb`:
 
   * Fill out the content of the `using_times` method so that calling it will `puts` the desired phrase, `"Wingardium Leviosa"` seven times by using the `times` keyword.  
 
